@@ -152,6 +152,26 @@
     border-radius: 4px;
     min-width: 200px;
 }
+@media screen and (min-width: 798px) {
+    .footer__block {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .footer__div {
+        &--position {
+            margin-top: 0;
+            margin-left: 165px;
+        }
+    }
+    .footer__input {
+        width: 450px;
+    }
+    .footer__form {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @media screen and (min-width: 1200px) {
     .footer__container {
         display: flex;
@@ -164,6 +184,7 @@
             margin-top: 0;
             margin-bottom: 0px;
             margin-right: 93px;
+            margin-left: 0;
         }
     }
     .footer__link {
@@ -178,6 +199,7 @@
     }
     .footer__form {
         flex-wrap: nowrap;
+        flex-direction: row;
     }
     .footer__input {
         width: 358px;

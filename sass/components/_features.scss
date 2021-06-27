@@ -42,6 +42,20 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+@media screen and (min-width: 768px) {
+    .section-features__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+        margin-bottom: -30px;
+    }
+    .section-features__item {
+        margin-right: 30px;
+        flex-basis: calc(100% / 2 - 30px);
+        
+    }
+
+}
 @media screen and (min-width: 1200px) {
     .section-features {
         padding-top: 94px;
@@ -49,10 +63,14 @@
     }
 
     .section-features__list {
-        display: flex;
         padding: 0;
         margin: 0;
         list-style: none;
+        flex-wrap: nowrap;
+    }
+    .section-features__item {
+        margin-top: 0px;
+        margin-left: 0px;
     }
     .section-features__item:not(:last-child) {
         margin-right: 30px;
