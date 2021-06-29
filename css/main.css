@@ -692,6 +692,8 @@
 .section-team__foto {
   display: block;
   margin: 0 auto;
+  width: 450px;
+  height: 460px;
 }
 
 .section-team__description {
@@ -787,6 +789,10 @@
   .section-team__item:not(:last-child) {
     margin-bottom: 0px;
   }
+  .section-team__foto {
+    width: 354px;
+    height: 374px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -814,6 +820,10 @@
   }
   .section-team__item:not(:last-child) {
     margin-bottom: 0;
+  }
+  .section-team__foto {
+    width: 270px;
+    height: 260px;
   }
   .section-team__description {
     padding-bottom: 30px;
