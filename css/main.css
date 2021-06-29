@@ -692,6 +692,7 @@
 .section-team__foto {
   display: block;
   margin: 0 auto;
+  width: 450px;
   height: 460px;
 }
 
