@@ -52,9 +52,10 @@
     .section-features__item {
         margin-right: 30px;
         flex-basis: calc(100% / 2 - 30px);
-        
     }
-
+    .section-features__title {
+        text-align: left;
+    }
 }
 @media screen and (min-width: 1200px) {
     .section-features {
@@ -95,7 +96,6 @@
         font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
-        text-align: left;
         margin-top: 0px;
         margin-bottom: 10px;
     }

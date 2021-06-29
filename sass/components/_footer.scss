@@ -152,7 +152,7 @@
     border-radius: 4px;
     min-width: 200px;
 }
-@media screen and (min-width: 798px) {
+@media screen and (min-width: 768px) {
     .footer__block {
         display: flex;
         justify-content: center;
@@ -186,6 +186,9 @@
             margin-right: 93px;
             margin-left: 0;
         }
+    }
+    .footer__block {
+        margin-bottom: 0px;
     }
     .footer__link {
         margin: 0 0 20px 0;
